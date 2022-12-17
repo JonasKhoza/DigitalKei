@@ -1,0 +1,59 @@
+.embedded_vid_explainer {
+  width: 100%;
+  height: 50rem;
+
+  padding-top: 45rem;
+}
+
+.embedded_vid_explainer .iframe {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width: 1122px) {
+  .embedded_vid_explainer {
+    height: 40rem;
+    padding-top: 55rem;
+  }
+}
+
+@media screen and (max-width: 1042px) {
+  .embedded_vid_explainer {
+    height: 40rem;
+    padding-top: 70rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .embedded_vid_explainer {
+    padding-top: 120rem;
+    height: fit-content;
+  }
+
+  .embedded_vid_explainer .iframe {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .embedded_vid_explainer {
+    padding-top: 125rem;
+    height: fit-content;
+  }
+  .embedded_vid_explainer .iframe {
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .embedded_vid_explainer {
+    padding-top: 140rem;
+    height: fit-content;
+  }
+
+  .embedded_vid_explainer .iframe {
+    height: 12rem;
+    padding: 0;
+  }
+}

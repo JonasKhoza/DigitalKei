@@ -1,0 +1,43 @@
+.home {
+  position: relative;
+}
+
+.what-we-do {
+  width: 100%;
+  height: 45rem;
+  background: url(https://indigoyogadayton.com/wp-content/uploads/2013/10/gratitude.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-we-do h1 {
+  width: 90%;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--white);
+  margin: 0;
+}
+
+.home .other_container {
+  position: relative;
+  background-color: var(--blue2);
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1490px) {
+  .our-services .container p {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .what-we-do {
+    height: 30rem;
+  }
+}

@@ -1,0 +1,237 @@
+.become_part {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--white);
+  color: var(--gray);
+  border-top-left-radius: 150px;
+  font-family: "Montserrat Alternates", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.become_part .statement {
+  padding-top: 5rem;
+}
+
+.become_part h1 {
+  width: 100%;
+  font-size: var(--size-large);
+  color: var(--blue2);
+  text-align: center;
+  margin: 0;
+}
+
+.become_part p {
+  width: 80%;
+  color: var(--dark2);
+  margin: 1rem auto;
+  font-weight: 700;
+  font-size: var(--size-4);
+  text-align: center;
+}
+
+.become_part .content_container {
+  width: 100%;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.become_part .contact_container {
+  width: 40rem;
+  float: right;
+  margin-right: 6rem;
+  background-color: rgb(255, 255, 255);
+  margin-top: var(--size);
+  padding: 6rem var(--size) var(--size) var(--size);
+  box-shadow: 1px 1px 14px 1px rgb(148, 146, 146);
+  border-top-left-radius: 130px;
+  border-top-right-radius: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.become_part .contact_container .contact_us {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-large1);
+  margin-bottom: var(--size-4);
+}
+
+.become_part .contact_container .contact_us p {
+  font: inherit;
+  font-size: var(--size3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size);
+}
+
+.become_part .contact_container .contact_us .icon {
+  font-size: var(--size-large);
+}
+
+.become_part .contact_container form {
+  width: 100%;
+}
+
+.become_part .contact_container form .inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: var(--size2);
+}
+
+.become_part .contact_container form .inputs .inputs_container {
+  display: flex;
+  gap: var(--size);
+}
+
+.become_part .contact_container form .inputs input {
+  width: 100%;
+  padding: var(--size2);
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgb(238, 235, 235);
+}
+
+.become_part .contact_container form .inputs input:focus {
+  outline: none;
+}
+
+.become_part .contact_container form .inputs input::placeholder {
+  color: var(--fourth-gray);
+}
+
+.become_part .contact_container form textarea {
+  width: 95%;
+
+  padding: var(--size2);
+  font-size: var(--size3);
+  border: none;
+  background-color: rgb(238, 235, 235);
+  resize: vertical;
+}
+
+.become_part .contact_container form textarea:focus {
+  outline: none;
+}
+
+.become_part .contact_container label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.become_part .contact_container .terms_conditions {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+
+.become_part .contact_container .form_actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-top: var(--size);
+  padding-right: 2rem;
+}
+
+.become_part .contact_container .form_actions button {
+  background-color: darkorange;
+  color: var(--white);
+  padding: var(--size1) var(--size);
+  font: inherit;
+  font-size: var(--size3);
+  text-align: center;
+  border: none;
+  border-radius: 80px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.become_part .contact_container .form_actions button:hover {
+  background-color: var(--blue2);
+}
+
+@media screen and (max-width: 900px) {
+  .become_part .contact_container {
+    width: 40rem;
+    float: right;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .become_part .contact_container {
+    width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .become_part .contact_container {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+
+  .become_part .contact_container .contact_us {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: var(--size3);
+  }
+
+  .become_part .contact_container form .inputs {
+    margin-top: 1rem;
+  }
+
+  .become_part .contact_container form .inputs .inputs_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .become_part .contact_container form .textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .become_part .contact_container .contact_us p {
+    gap: var(--size1);
+  }
+
+  .become_part .contact_container .contact_us .icon {
+    font-size: var(--size);
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .become_part .contact_container .contact_us {
+    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .become_part .contact_container .contact_us p {
+    margin: 0;
+
+    padding-left: 1rem;
+    justify-content: flex-start;
+
+    gap: 0;
+  }
+}
