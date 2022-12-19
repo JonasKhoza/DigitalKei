@@ -28,7 +28,7 @@
   color: var(--dark2);
   margin: 1rem auto;
   font-weight: 700;
-  font-size: var(--size-4);
+  font-size: var(--size4);
   text-align: center;
 }
 
@@ -163,6 +163,16 @@
   background-color: var(--blue2);
 }
 
+@media screen and (max-width: 1024px) {
+  .become_part h1 {
+    font-size: 2.3rem;
+  }
+
+  .become_part p {
+    font-size: var(--size3);
+  }
+}
+
 @media screen and (max-width: 900px) {
   .become_part .contact_container {
     width: 40rem;
@@ -172,6 +182,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .become_part h1 {
+    font-size: 2.1rem;
+  }
+
+  .become_part p {
+    font-size: 1.2rem;
+  }
+
   .become_part .contact_container {
     width: 95%;
     padding-left: 0;

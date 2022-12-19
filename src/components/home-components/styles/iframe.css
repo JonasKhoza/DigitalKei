@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 768px) {
   .embedded_vid_explainer {
-    padding-top: 120rem;
+    padding-top: 140rem;
     height: fit-content;
   }
 
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 530px) {
   .embedded_vid_explainer {
-    padding-top: 125rem;
+    padding-top: 140rem;
     height: fit-content;
   }
   .embedded_vid_explainer .iframe {
@@ -46,14 +46,21 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   .embedded_vid_explainer {
-    padding-top: 140rem;
+    padding-top: 150rem;
     height: fit-content;
   }
 
   .embedded_vid_explainer .iframe {
     height: 12rem;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .embedded_vid_explainer {
+    padding-top: 155rem;
+    height: fit-content;
   }
 }
