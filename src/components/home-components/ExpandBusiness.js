@@ -12,22 +12,14 @@ function ExpandBusiness() {
           Expand your business and increase your profits
         </h1>
 
-        <motion.div className="actions" animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
-                transition={{
-                    duration: 5,
-                    delay: 0.3,
-                    ease: [0.5, 0.71, 1, 1.5],
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }}
-            >
+        <div>
 
           <Link to="">Enroll on a course</Link>
           <span>|</span>
           <Link to="">Become a seller</Link>
         
         
-        </motion.div>
+        </div>
       </div>
       
       <div className="image">
