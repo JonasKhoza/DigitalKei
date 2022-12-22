@@ -1,0 +1,68 @@
+.products_we_sell {
+  width: 100%;
+  height: fit-content;
+
+  color: var(--gray);
+  width: 100%;
+  padding: var(--size) var(--size3);
+}
+
+.products_we_sell h1 {
+  margin: 0;
+  text-align: center;
+  font-size: var(--size-large);
+}
+
+.products_we_sell .products_items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size);
+  padding: var(--size3) 0;
+}
+
+.products_we_sell .products_items li {
+  background-color: var(--blue2);
+  width: 14rem;
+  padding: var(--size3) 0;
+  font-size: var(--size4);
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.products_we_sell .product_actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-large3);
+}
+
+.products_we_sell .product_actions .product {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size);
+}
+
+.products_we_sell .product_actions .product p {
+  padding: 0;
+  margin: 0;
+  font-size: var(--size3);
+}
+
+.products_we_sell .product_actions .product a {
+  text-decoration: none;
+  background-color: darkorange;
+  color: var(--white);
+  text-align: center;
+  align-self: center;
+  width: 8rem;
+  font-size: var(--size3);
+  padding: var(--size-0) 0;
+  border-radius: 10px;
+}
+
+.products_we_sell .product_actions .product a:hover {
+  color: var(--blue2);
+}
