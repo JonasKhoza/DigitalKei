@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+// eslint-disable-next-line
 import FacebookIcon from "@mui/icons-material/Facebook";
 
 import "./styles/footer.css";
