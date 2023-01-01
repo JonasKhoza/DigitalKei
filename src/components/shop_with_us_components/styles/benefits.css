@@ -1,9 +1,14 @@
 .benefits_container {
   padding-top: 4rem;
   padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .benefits_container .benefits_header {
+  font-family: "Montserrat Alternates", sans-serif;
   color: var(--blue2);
   text-align: center;
   font: 700;
@@ -11,26 +16,41 @@
 }
 
 .benefits_container .benefits {
+  width: 100%;
   color: var(--white);
   list-style: none;
+  margin: 0;
+  padding: 0;
   padding-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(2, 25rem);
+  grid-template-columns: repeat(2, 30rem);
   justify-content: center;
   gap: 8rem;
 }
 
 .benefits_container .benefits li {
-  height: 22rem;
+  height: 24rem;
   background-color: var(--blue2);
-  padding: var(--size-0) 1rem;
-  border-radius: 20px;
+  padding: var(--size-0) 2.5rem;
+  place-self: center;
   transition: 0.5s ease-in;
-  cursor: pointer;
+  cursor: text;
+}
+
+.first {
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.benefits_container .benefits .second {
+  border-bottom-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
 }
 
 .benefits_container .benefits li:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .benefits_container .benefits li .image_container {
@@ -62,4 +82,52 @@
   margin: 0;
   font-size: var(--size3);
   text-align: justify;
+}
+
+@media screen and (max-width: 1480px) {
+  .benefits_container .benefits {
+    gap: 8rem 2%;
+  }
+
+  .benefits_container .benefits li {
+    width: 18rem;
+    place-self: flex-end;
+  }
+
+  .benefits_container .benefits li:nth-child(2) {
+    place-self: flex-start;
+  }
+  .benefits_container .benefits li:nth-child(4) {
+    place-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .benefits_container .benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .benefits_container .benefits li {
+    width: 25rem;
+
+    place-self: center;
+  }
+
+  .benefits_container .benefits li:nth-child(2) {
+    place-self: center;
+  }
+  .benefits_container .benefits li:nth-child(4) {
+    place-self: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .benefits_container .benefits li {
+    width: 12rem;
+    height: fit-content;
+  }
 }

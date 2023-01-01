@@ -1,5 +1,7 @@
 import Benefits from "../components/shop_with_us_components/Benefits";
 import WhatWeSell from "../components/shop_with_us_components/WhatWeSell";
+import Register from "../components/shop_with_us_components/Register";
+import HowToRegister from "../components/shop_with_us_components/How_To_Register";
 
 import "./styles/shopwithus.css";
 
@@ -13,7 +15,13 @@ function ShopWithUs() {
         <section className="first_inner_section">
           <Benefits />
         </section>
-        <WhatWeSell />
+      </section>
+      <section className="third_section">
+        <section className="second_inner_section">
+          <WhatWeSell />
+          <Register />
+          <HowToRegister />
+        </section>
       </section>
     </div>
   );

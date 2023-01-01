@@ -1,0 +1,145 @@
+.how_to_register {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: var(--size-large);
+  padding-bottom: var(--size);
+}
+
+.how_to_register h1 {
+  margin: 0;
+  padding: 0;
+  color: var(--blue2);
+  text-align: center;
+  font-weight: bolder;
+  font-size: var(--size-large2);
+}
+
+.how_to_register_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.how_to_register_container .business_part {
+  width: 70%;
+  margin: 0 auto;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.how_to_register_container .business_part ul {
+  background-color: #e6ecec;
+  width: 1710px;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+  list-style: none;
+  display: flex;
+  gap: var(--size);
+}
+
+.how_to_register .business_part ul img {
+  width: 16rem;
+  height: 20rem;
+  border-radius: 8px;
+}
+
+.how_to_register_container .business_part ul img:hover {
+  cursor: text;
+}
+
+.how_to_register_container h2 {
+  width: 25rem;
+  margin: 2rem auto;
+  padding: 0;
+  border-radius: 20px;
+  color: #066451;
+  background-color: darkorange;
+  text-align: center;
+  font-weight: 600;
+  font-size: var(--size);
+}
+
+.how_to_register .training_part {
+  width: 100%;
+  height: fit-content;
+}
+
+.training_part ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.training_part ul li {
+  box-shadow: 3px 3px 3px 5px rgb(170, 169, 169);
+}
+
+.training_part ul img {
+  width: 16rem;
+  height: 24rem;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 1320px) {
+  .how_to_register_container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .training_part ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .how_to_register ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  } */
+  .how_to_register h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .how_to_register_container h2 {
+    width: 15rem;
+    margin: 2rem auto;
+    padding: 0;
+    border-radius: 10px;
+
+    font-size: var(--size);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .how_to_register_container .business_part {
+    width: 85%;
+  }
+
+  .how_to_register .business_part ul img {
+    width: 12rem;
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .how_to_register_container .business_part {
+    width: 98%;
+  }
+
+  .slider_container .icons {
+    margin: 0;
+  }
+}

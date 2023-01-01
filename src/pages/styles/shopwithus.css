@@ -1,11 +1,13 @@
 .shopwithus {
   position: relative;
   color: var(--gray);
+  background-color: var(--blue2);
 }
 
 .shopwithus .what-we-do {
   width: 100%;
   height: 45rem;
+
   background: url(https://img.freepik.com/free-psd/happy-customer-signing-delivery-from-courier-isolated-background-man-signing-receipt-package-delivery-delivery-concept-3d-render-cartoon-character_1150-61970.jpg);
   background-size: cover;
   background-position: center;
@@ -25,7 +27,7 @@
 }
 
 .second_section {
-  padding-top: 70rem;
+  padding-top: 74rem;
 }
 
 .shopwithus .first_inner_section {
@@ -38,4 +40,20 @@
   top: 38rem;
   left: 0;
   padding-bottom: var(--size-large1);
+}
+
+.second_inner_section {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .shopwithus .first_inner_section {
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+  }
+  .second_section {
+    padding-top: 124rem;
+  }
 }

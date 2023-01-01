@@ -8,8 +8,36 @@ function WhatWeSell() {
       <h1>What we sell</h1>
       <div className="products">
         <ul className="products_items">
-          <li>FCMG</li>
-          <li>Training courses</li>
+          <li className="blue">
+            <p> Training courses</p>
+            <div className="image_container">
+              <img
+                src={`${process.env.PUBLIC_URL}/images/benefits/way-concept-illustration_114360-1191.webp`}
+                alt=""
+              />
+            </div>
+          </li>
+          <li className="gold">
+            <p>FCMG</p>
+            <div className="image_container">
+              {" "}
+              <img
+                src={`${process.env.PUBLIC_URL}/images/benefits/way-concept-illustration_114360-1191.webp`}
+                alt=""
+              />
+            </div>
+          </li>
+
+          <li className="orange">
+            <p> Training courses</p>
+            <div className="image_container">
+              {" "}
+              <img
+                src={`${process.env.PUBLIC_URL}/images/benefits/way-concept-illustration_114360-1191.webp`}
+                alt=""
+              />
+            </div>
+          </li>
         </ul>
         <div className="product_actions">
           <div className="product">
