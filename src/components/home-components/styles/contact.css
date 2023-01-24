@@ -32,6 +32,10 @@
   text-align: center;
 }
 
+.contact_form_container {
+  width: 100%;
+}
+
 .become_part .content_container {
   width: 100%;
   margin: 0 auto;
@@ -199,8 +203,8 @@
   }
 
   .become_part .contact_container {
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
   }
 
   .become_part .contact_container .contact_us {
@@ -236,6 +240,11 @@
 }
 
 @media screen and (max-width: 565px) {
+  .become_part .contact_container {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
   .become_part .contact_container .contact_us {
     margin-bottom: 1rem;
     flex-direction: column;
@@ -245,8 +254,11 @@
   }
 
   .become_part .contact_container .contact_us p {
+    width: 90%;
     margin: 0;
-
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
     padding-left: 1rem;
     justify-content: flex-start;
 

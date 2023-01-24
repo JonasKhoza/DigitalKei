@@ -180,7 +180,20 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .our-services {
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    top: 25rem;
+  }
+}
+
 @media screen and (max-width: 345px) {
+  .our-services {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    top: 25rem;
+  }
   .our-services .container h1 {
     word-wrap: break-word;
   }

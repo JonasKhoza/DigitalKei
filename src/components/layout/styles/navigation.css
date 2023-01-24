@@ -35,6 +35,13 @@
   color: var(--blue2);
 }
 
+.navigation nav ul a.active {
+  color: var(--blue2);
+  text-decoration: underline;
+  text-decoration-color: var(--blue2);
+  text-decoration-thickness: 5px;
+}
+
 header .hamburger_menu {
   display: none;
 }

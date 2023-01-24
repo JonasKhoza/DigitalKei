@@ -1,0 +1,55 @@
+.team_intro {
+  width: 100%;
+  height: 45rem;
+  padding: 0;
+  margin: 0;
+  padding-left: 10rem;
+  background-color: #3bdaba;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10rem;
+}
+.intro_content {
+  padding: 0;
+  margin: 0;
+
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--size-0);
+}
+
+.team_intro h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  color: rgb(78, 78, 78);
+}
+
+.intro_desc {
+  padding: 0;
+  padding-left: 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.team_intro p {
+  width: 45%;
+  padding: 0;
+  margin: 0;
+
+  font-size: 1.4rem;
+}
+
+.team_intro h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  color: rgb(78, 78, 78);
+}

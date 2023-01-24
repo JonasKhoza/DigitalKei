@@ -1,0 +1,71 @@
+.shopwithus {
+  position: relative;
+  color: var(--gray);
+  background-color: var(--blue2);
+}
+
+.shopwithus .what-we-do {
+  width: 100%;
+  height: 45rem;
+
+  background: url(https://img.freepik.com/free-psd/happy-customer-signing-delivery-from-courier-isolated-background-man-signing-receipt-package-delivery-delivery-concept-3d-render-cartoon-character_1150-61970.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopwithus .what-we-do h1 {
+  width: 90%;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--white);
+  margin: 0;
+}
+
+.second_section {
+  padding-top: 74rem;
+}
+
+.shopwithus .first_inner_section {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--white);
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  position: absolute;
+  top: 38rem;
+  left: 0;
+  padding-bottom: var(--size-large2);
+}
+
+.second_inner_section {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .shopwithus .first_inner_section {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+  .second_section {
+    padding-top: 124rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shopwithus .first_inner_section {
+    padding-bottom: 10rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .second_section {
+    padding-top: 116rem;
+  }
+}

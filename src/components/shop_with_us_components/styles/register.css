@@ -1,0 +1,100 @@
+.register {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--blue2);
+  color: var(--white);
+  padding: var(--size) 0;
+}
+
+.register .register_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size2);
+}
+
+.register .register_header h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.register .register_header img {
+  width: 12rem;
+  border-radius: 40px;
+}
+
+.register .register_steps {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  padding: var(--size3) 0;
+}
+
+.register .register_steps .step_article {
+  display: flex;
+  gap: 1rem;
+}
+
+.register .register_steps .each_step {
+  align-self: flex-end;
+}
+
+.register .register_steps h2 {
+  min-width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--blue2);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: var(--size-large2);
+  border-radius: 50%;
+}
+
+.register .register_steps p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.register .register_child_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.register .register_child_container img {
+  width: 22rem;
+  height: 28rem;
+  border-radius: 8px;
+  transform: rotate(-30deg);
+}
+
+@media screen and (max-width: 980px) {
+  .register .register_child_container img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .register .register_steps h2 {
+    min-width: 4.5rem;
+    height: 4.5rem;
+  }
+}
