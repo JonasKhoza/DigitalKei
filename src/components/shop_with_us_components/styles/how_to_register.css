@@ -52,15 +52,16 @@
 }
 
 .how_to_register_container h2 {
+  font-family: "Montserrat Alternates", sans-serif;
   width: 25rem;
   margin: 2rem auto;
   padding: 0;
-  border-radius: 20px;
-  color: #066451;
-  background-color: darkorange;
+  border-radius: 10px;
+  color: rgb(82, 81, 81);
+  background-color: rgb(216, 216, 216);
   text-align: center;
-  font-weight: 600;
-  font-size: var(--size);
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .how_to_register .training_part {

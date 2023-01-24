@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import "./styles/aside_mobile.css";
 
@@ -8,24 +8,44 @@ function Aside({ menuIsOpen, toggleMenuBar }) {
       <nav>
         <ul>
           <li>
-            <Link to="shop-with-us" onClick={toggleMenuBar}>
+            <NavLink
+              to="shop-with-us"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
               Shop with us
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/our-mission" onClick={toggleMenuBar}>
+            <NavLink
+              to="/our-mission"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
               Our mission
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/team" onClick={toggleMenuBar}>
+            <NavLink
+              to="/team"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
               Team
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact" onClick={toggleMenuBar}>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

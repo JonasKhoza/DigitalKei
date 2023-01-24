@@ -39,6 +39,13 @@
     border-radius: 3px;
   }
 
+  .sideDrawer ul a.active {
+    color: var(--blue2);
+    text-decoration: underline;
+    text-decoration-color: var(--blue2);
+    text-decoration-thickness: 5px;
+  }
+
   .sideDrawer ul a:hover {
     color: var(--blue2);
   }

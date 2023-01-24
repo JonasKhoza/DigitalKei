@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
@@ -7,21 +7,51 @@ function Navigation({ menuIsOpen, toggleMenuBar }) {
   return (
     <header className="navigation">
       <div className="logo">
-        <Link to="/">Logo</Link>
+        <Link to="/" onClick={toggleMenuBar}>
+          Logo
+        </Link>
       </div>
       <nav>
         <ul>
           <li>
-            <Link to="shop-with-us">Shop with us</Link>
+            <NavLink
+              to="shop-with-us"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
+              Shop with us
+            </NavLink>
           </li>
           <li>
-            <Link to="/our-mission">Our mission</Link>
+            <NavLink
+              to="/our-mission"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
+              Our mission
+            </NavLink>
           </li>
           <li>
-            <Link to="/team">Team</Link>
+            <NavLink
+              to="/team"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
+              Team
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => {
+                return isActive ? "active" : "";
+              }}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>

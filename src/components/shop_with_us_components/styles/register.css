@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: var(--size2);
 }
 
 .register .register_header h1 {
@@ -23,7 +24,8 @@
 }
 
 .register .register_header img {
-  width: 10rem;
+  width: 12rem;
+  border-radius: 40px;
 }
 
 .register .register_steps {

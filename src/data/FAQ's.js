@@ -37,6 +37,23 @@ const FAQs = [
         Many of our growers are based in the Great Kei, so we know well what they do to ensure that they can supply us with high-quality products.
          An organic label is not feasible for every grower, because costs and administrative work are also involved, but this does not mean that they have less good standards.`,
   },
+
+  {
+    id: 5,
+    isOpen: false,
+    question: "Do I have to be home when Digital Kei delivers?",
+    answer: `Preferably yes. This way, everything at home can go straight back into the fridge or freezer. 
+    With the track & trace information we send you, you can see exactly what time we will be there. Are you unexpectedly not at home? Then contact the service team. We will call your delivery person. But please note: if you have alcohol in your order, we may ask for your ID. You can therefore not have your order delivered to your neighbors or have it placed somewhere else.
+     If you are not at home, we unfortunately have to take your groceries back.`,
+  },
+  {
+    id: 6,
+    isOpen: false,
+    question: "Do I have to be home when Digital Kei delivers?",
+    answer: `Preferably yes. This way, everything at home can go straight back into the fridge or freezer. 
+    With the track & trace information we send you, you can see exactly what time we will be there. Are you unexpectedly not at home? Then contact the service team. We will call your delivery person. But please note: if you have alcohol in your order, we may ask for your ID. You can therefore not have your order delivered to your neighbors or have it placed somewhere else.
+     If you are not at home, we unfortunately have to take your groceries back.`,
+  },
 ];
 
 export default FAQs;

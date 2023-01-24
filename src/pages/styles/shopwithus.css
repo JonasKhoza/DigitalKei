@@ -39,7 +39,7 @@
   position: absolute;
   top: 38rem;
   left: 0;
-  padding-bottom: var(--size-large1);
+  padding-bottom: var(--size-large2);
 }
 
 .second_inner_section {
@@ -50,10 +50,22 @@
 
 @media screen and (max-width: 768px) {
   .shopwithus .first_inner_section {
-    border-top-left-radius: 90px;
-    border-top-right-radius: 90px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
   }
   .second_section {
     padding-top: 124rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shopwithus .first_inner_section {
+    padding-bottom: 10rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .second_section {
+    padding-top: 116rem;
   }
 }

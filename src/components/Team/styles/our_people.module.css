@@ -1,0 +1,88 @@
+.our_people {
+  width: 100%;
+  background-color: transparent;
+}
+
+.team_profiles {
+  width: 100%;
+  margin-top: -6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profiles_container {
+  width: 80%;
+  margin: 0 auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: transparent;
+}
+
+.profiles_container li:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.profile_content {
+  width: 30rem;
+  height: 50rem;
+}
+
+.profile_content img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.profile_desc {
+  width: 100%;
+  height: 33%;
+}
+
+.profile_desc h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(78, 78, 78);
+}
+.profile_desc p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.question_list {
+  grid-column: -1 / -3;
+}
+
+.join_team {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.join_team h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  color: rgb(78, 78, 78);
+}
+
+.join_team a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(78, 78, 78);
+}

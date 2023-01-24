@@ -123,9 +123,31 @@
   .benefits_container .benefits li:nth-child(4) {
     place-self: center;
   }
+
+  .first {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .benefits_container .benefits .second {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .benefits_container .benefits_header {
+    font-size: 2rem;
+    padding: 3.5rem 0.5rem 0 0.5rem;
+    margin: 0;
+  }
+  .benefits_container .benefits {
+  }
+  .benefits_container {
+    padding-top: 0;
+  }
   .benefits_container .benefits li {
     width: 12rem;
     height: fit-content;

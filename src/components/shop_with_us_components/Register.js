@@ -9,6 +9,7 @@ function Register() {
         <img
           src={`${process.env.PUBLIC_URL}/images/services/woman-thinking-concept-illustration_114360-7921.webp`}
           alt=""
+          className="register_img"
         />
       </div>
 
