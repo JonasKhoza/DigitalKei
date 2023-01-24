@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import "./styles/expandbusiness.css";
 function ExpandBusiness() {
@@ -11,12 +12,16 @@ function ExpandBusiness() {
           Expand your business and increase your profits
         </h1>
 
-        <div className="actions">
+        <div>
+
           <Link to="">Enroll on a course</Link>
           <span>|</span>
           <Link to="">Become a seller</Link>
+        
+        
         </div>
       </div>
+      
       <div className="image">
         <img
           src={`${process.env.PUBLIC_URL}/images/services/welcome-new-employee.png`}
